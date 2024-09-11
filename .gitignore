@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Editor
+.vscode/*
+.ruff_cache/*
+.__pycache__/*
+
+# CMAKE
+build/*
+
+# Pointer Scans
+pointer-scans/*
