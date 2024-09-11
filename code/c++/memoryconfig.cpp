@@ -1,0 +1,36 @@
+
+#include "memorylocator.h"
+#include "memoryconfig.h"
+
+namespace MemoryConfig {
+    MemoryAddresses memoryAddresses = {
+        MemoryLocator(0x731C50, {0x4F0}),
+        MemoryLocator(0x731C50, {0x868, 0x5578}),
+        MemoryLocator(0x731C50, {0x868, 0xA8, 0x0}),
+        MemoryLocator(0x731C50, {0x868, 0xC4, 0x0}),
+        MemoryLocator(0x731C50, {0x868, 0x15C, 0x0}),
+        MemoryLocator(0x731C50, {0x868, 0xD4}),
+        MemoryLocator(0x731C50, {0x868, 0xB8}),
+        MemoryLocator(0x0731C50, {0x868, 0xAC}),
+        MemoryLocator(0x731C50, {0x91C}),
+        MemoryLocator(0x726988, {}),
+        MemoryLocator(0x731C50, {0x868, 0x5580}),
+        MemoryLocator(0x731C50, {0x868, 0x17C})
+    };
+    Offsets offsets = {
+        0x141,
+        0x28,
+        0x1C,
+        0x24,
+        0x14C,
+        0xEC,
+        0x2c,
+        0x30,
+        0xc4,
+        0x168,
+        0x4c,
+        0x50,
+        0x5c,
+        0x50
+    };
+}
