@@ -1,0 +1,41 @@
+[seeds]
+seed_slot_0 = "peashooter"
+seed_slot_1 = "sunflower"
+seed_slot_2 = "wall-nut"
+seed_slot_3 = "squash"
+seed_slot_4 = "spikeweed"
+seed_slot_5 = "starfruit"
+seed_slot_6 = "pumpkin"
+seed_slot_7 = "melon-pult"
+seed_slot_8 = "winter melon"
+seed_slot_9 = "blover"     
+
+[timings]
+speed_up = 100
+action_interval = 1     #Measured in seconds between actions
+
+# All zombies not included will have a default reward of 1
+[zombie_rewards]
+normal_zombie = 1
+flag_zombie = 1
+conehead_zombie = 2
+buckethead_zombie = 4
+newspaper_zombie = 2
+screen_door_zombie = 4
+football_zombie = 8
+dancing_zombie = 3
+backup_dancer = 1
+zomboni = 4
+jack-in-the-box_zombie = 2
+balloon_zombie = 6
+digger_zombie = 6
+pogo_zombie = 3
+ladder_zombie = 3
+catapult_zombie = 4
+gargantular_zombie = 12
+imp = 2
+
+[rewards]
+unsuccessful_plant_reward = -1
+plant_killed_reward = -5
+survival_reward = 0.02
