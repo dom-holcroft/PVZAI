@@ -34,7 +34,7 @@
 # Editor
 .vscode/*
 .ruff_cache/*
-.__pycache__/*
+__pycache__/*
 
 # CMAKE
 build/*
