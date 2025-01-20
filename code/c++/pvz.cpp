@@ -310,6 +310,7 @@ void changePauseState(HANDLE hProcess, bool state)
 
 GameValues getGameValues(HANDLE hProcess, DWORD restartFlagAddress, std::vector<int> seedIDs)
 {
+    changePauseState(hProcess, true);
     if (isGameOver(hProcess, restartFlagAddress) || !isGameRunning(hProcess))
     {
         GameValues gameValues;
@@ -340,6 +341,7 @@ GameValues getGameValues(HANDLE hProcess, DWORD restartFlagAddress, std::vector<
     inputInformation.insert(inputInformation.end(), plantRecharges.begin(), plantRecharges.end());
     inputInformation.insert(inputInformation.end(), plantPrices.begin(), plantPrices.end());
 
+    changePauseState(hProcess, false);
     return GameValues{inputInformation, combinedGrid};
 }
 
