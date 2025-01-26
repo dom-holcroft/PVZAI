@@ -216,11 +216,11 @@ std::array<std::array<std::array<int, 10>, 5>, 10> getPlantsOnGrid(HANDLE hProce
     {
 
         seedPosition = 0;
-        do
-        {
-            currentPlant += MemoryConfig::offsets.plantNext;
-        } while (*reinterpret_cast<uint8_t *>(&plantData[currentPlant + MemoryConfig::offsets.plantDead]));
-
+        
+        
+        
+        
+        
         plantCol = *reinterpret_cast<DWORD *>(&plantData[currentPlant + MemoryConfig::offsets.plantCol]);
         plantRow = *reinterpret_cast<DWORD *>(&plantData[currentPlant + MemoryConfig::offsets.plantRow]);
         plantType = *reinterpret_cast<DWORD *>(&plantData[currentPlant + MemoryConfig::offsets.plantType]);
@@ -390,6 +390,7 @@ void placePlant(HANDLE process,
                 MemoryConfig::PlacePlantAddresses *placePlantAddresses,
                 int col, int row, int seedSlot)
 {
+    changePauseState(process, true);
     if (isGameRunning(process))
     {
         //LPTHREAD_START_ROUTINE plantFuncAddress = reinterpret_cast<LPTHREAD_START_ROUTINE>(placePlantAddresses->placePlantFunctionAddress);
@@ -400,6 +401,7 @@ void placePlant(HANDLE process,
         //WaitForSingleObject(hThread, INFINITE);
         //CloseHandle(hThread);
     }
+    changePauseState(process, false);
 }
 
 SetupCodeInjectionReturn setupCodeInjection(HANDLE process, MemoryConfig::PlacePlantAddresses *placePlantAddresses)

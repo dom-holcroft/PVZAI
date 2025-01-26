@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.31.2)
+cmake_minimum_required(VERSION 3.30.1)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(tomlplusplus-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/marzer/tomlplusplus.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v3.4.0"
-                    SOURCE_DIR          "H:/Documents/PVZAI/_deps/tomlplusplus-src"
-                    BINARY_DIR          "H:/Documents/PVZAI/_deps/tomlplusplus-build"
+                    SOURCE_DIR          "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src"
+                    BINARY_DIR          "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

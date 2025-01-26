@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1904171E-91F5-31CA-B733-75A532C74BA7}</ProjectGuid>
+    <ProjectGuid>{4B0BF261-7E6E-3400-9873-ED03C76AE8F3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>pvz</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\PVZAI\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dominic\Projects\PVZAI\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pvz.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pvz</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\PVZAI\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Dominic\Projects\PVZAI\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pvz.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pvz</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\PVZAI\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Dominic\Projects\PVZAI\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pvz.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pvz</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\PVZAI\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Dominic\Projects\PVZAI\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pvz.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pvz</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,8 +117,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -141,10 +141,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,8 +157,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -181,10 +181,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,8 +197,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -220,10 +220,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\PVZAI\code\c++;C:\ProgramData\Anaconda3\include;C:\ProgramData\Anaconda3\Lib\site-packages\numpy\core\include;H:\Documents\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dominic\Projects\PVZAI\code\c++;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\include;C:\Users\Dominic\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\include;C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,11 +235,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\PVZAI\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Dominic\Projects\PVZAI\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/PVZAI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dominic/Projects/PVZAI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\dv392\.conda\envs\pvz\Library\bin\cmake.exe -SH:/Documents/PVZAI -BH:/Documents/PVZAI --check-stamp-file H:/Documents/PVZAI/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dominic/Projects/PVZAI -BC:/Users/Dominic/Projects/PVZAI --check-stamp-file C:/Users/Dominic/Projects/PVZAI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,12 +247,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeASMInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython3.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeASMCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\PVZAI\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeASMCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dominic\Projects\PVZAI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/PVZAI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Dominic/Projects/PVZAI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\dv392\.conda\envs\pvz\Library\bin\cmake.exe -SH:/Documents/PVZAI -BH:/Documents/PVZAI --check-stamp-file H:/Documents/PVZAI/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dominic/Projects/PVZAI -BC:/Users/Dominic/Projects/PVZAI --check-stamp-file C:/Users/Dominic/Projects/PVZAI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,12 +260,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeASMInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython3.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeASMCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\PVZAI\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeASMCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Dominic\Projects\PVZAI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/PVZAI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Dominic/Projects/PVZAI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\dv392\.conda\envs\pvz\Library\bin\cmake.exe -SH:/Documents/PVZAI -BH:/Documents/PVZAI --check-stamp-file H:/Documents/PVZAI/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dominic/Projects/PVZAI -BC:/Users/Dominic/Projects/PVZAI --check-stamp-file C:/Users/Dominic/Projects/PVZAI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,12 +273,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeASMInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython3.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeASMCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\PVZAI\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeASMCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Dominic\Projects\PVZAI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/PVZAI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Dominic/Projects/PVZAI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\dv392\.conda\envs\pvz\Library\bin\cmake.exe -SH:/Documents/PVZAI -BH:/Documents/PVZAI --check-stamp-file H:/Documents/PVZAI/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dominic/Projects/PVZAI -BC:/Users/Dominic/Projects/PVZAI --check-stamp-file C:/Users/Dominic/Projects/PVZAI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,23 +286,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeASMInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\FindPython3.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\dv392\.conda\envs\pvz\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeASMCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;H:\Documents\PVZAI\CMakeFiles\3.31.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\PVZAI\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeASMCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Dominic\Projects\PVZAI\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Dominic\Projects\PVZAI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\pvz.cpp" />
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\pvzinterface.cpp" />
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\machinecode.cpp" />
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\memoryconfig.cpp" />
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\memorylocator.cpp" />
-    <ClCompile Include="H:\Documents\PVZAI\code\c++\util.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\pvz.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\pvzinterface.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\machinecode.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\memoryconfig.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\memorylocator.cpp" />
+    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\util.cpp" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\PVZAI\ZERO_CHECK.vcxproj">
-      <Project>{BD8CFE58-F858-38ED-9BFD-DD17BE1707A3}</Project>
+    <ProjectReference Include="C:\Users\Dominic\Projects\PVZAI\ZERO_CHECK.vcxproj">
+      <Project>{53DABB1E-E820-3B62-ACA0-9007C21A410B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

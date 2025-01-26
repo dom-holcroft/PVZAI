@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/PVZAI/_deps/tomlplusplus-src
+# Install script for directory: C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,9 +32,3 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "H:/Documents/PVZAI/_deps/tomlplusplus-build/install_local_manifest.txt"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
-endif()

@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/Users/dv392/.conda/envs/pvz/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;H:/Documents/PVZAI/_deps/tomlplusplus-subbuild/tomlplusplus-populate-prefix/tmp/tomlplusplus-populate-gitclone.cmake
-source_dir=H:/Documents/PVZAI/_deps/tomlplusplus-src
-work_dir=H:/Documents/PVZAI/_deps
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-subbuild/tomlplusplus-populate-prefix/tmp/tomlplusplus-populate-gitclone.cmake
+source_dir=C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-src
+work_dir=C:/Users/Dominic/Projects/PVZAI/_deps
 repository=https://github.com/marzer/tomlplusplus.git
 remote=origin
 init_submodules=TRUE

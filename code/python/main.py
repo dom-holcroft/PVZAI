@@ -18,7 +18,6 @@ def main():
             print("game over") 
             pvz.restart_game() 
             while(not pvz.is_game_running()):
-                #time.sleep(0.001)
                 pass
         print("1")
         gameValues = pvz.get_game_values()
@@ -27,6 +26,8 @@ def main():
             a,b = gameValues
             print(a[10])
             pvz.place_plant(random.randrange(0,9),random.randrange(0,5),random.randrange(0,10))
+            # Issue is getting the price of the plant
+            print("charlie")
             previous_time, reward = pvz.play_step(previous_time)
 
             print(reward)
