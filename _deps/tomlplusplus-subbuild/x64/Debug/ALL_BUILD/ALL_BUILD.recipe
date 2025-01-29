@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>H:\Documents\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\tomlplusplus-populate</FullPath>
+      <FullPath>H:\Documents\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\tomlplusplus-populate</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Dominic\Projects\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>H:\Documents\PVZAI\_deps\tomlplusplus-subbuild\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

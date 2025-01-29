@@ -507,5 +507,12 @@ SetupCodeInjectionReturn setupCodeInjection(HANDLE process, MemoryConfig::PlaceP
         configValues.survivalReward,
         restartFlagAddress,
         configValues.seeds};
+
+    if(MemoryConfig::memoryAddresses.sceneType.getInt(process) != 3) {
+        writeByte(process, 1, restartFlagAddress);
+        CreateRemoteThread(process, NULL, 0,(LPTHREAD_START_ROUTINE)startRoundFunctionAddress,NULL,0, NULL);
+        
+    }
+
     return setupCodeInjectionReturn;
 }

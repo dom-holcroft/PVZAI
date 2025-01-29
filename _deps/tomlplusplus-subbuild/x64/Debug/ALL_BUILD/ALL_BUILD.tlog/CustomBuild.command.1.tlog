@@ -1,6 +1,6 @@
-^C:\USERS\DOMINIC\PROJECTS\PVZAI\_DEPS\TOMLPLUSPLUS-SUBBUILD\CMAKELISTS.TXT
+^H:\DOCUMENTS\PVZAI\_DEPS\TOMLPLUSPLUS-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-subbuild -BC:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-subbuild --check-stamp-file C:/Users/Dominic/Projects/PVZAI/_deps/tomlplusplus-subbuild/CMakeFiles/generate.stamp
+C:\Users\dv392\.conda\envs\pvz\Library\bin\cmake.exe -SH:/Documents/PVZAI/_deps/tomlplusplus-subbuild -BH:/Documents/PVZAI/_deps/tomlplusplus-subbuild --check-stamp-file H:/Documents/PVZAI/_deps/tomlplusplus-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

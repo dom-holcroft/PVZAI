@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\pvz.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\pvz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\pvzinterface.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\pvzinterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\machinecode.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\machinecode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\memoryconfig.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\memoryconfig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\memorylocator.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\memorylocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Dominic\Projects\PVZAI\code\c++\util.cpp">
+    <ClCompile Include="H:\Documents\PVZAI\code\c++\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dominic\Projects\PVZAI\CMakeLists.txt" />
+    <CustomBuild Include="H:\Documents\PVZAI\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{203E4ECC-D709-3213-B6C0-7C60ECACDB34}</UniqueIdentifier>
+      <UniqueIdentifier>{C6129847-84E1-39C8-9E29-ACC8A073A4DC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

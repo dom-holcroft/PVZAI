@@ -11,7 +11,7 @@ seed_slot_8 = "winter melon"
 seed_slot_9 = "blover"     
 
 [timings]
-speed_up = 1000
+speed_up = 1
 action_interval = 1     #Measured in seconds between actions
 
 # All zombies not included will have a default reward of 1
